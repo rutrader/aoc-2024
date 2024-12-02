@@ -1,7 +1,8 @@
-const solution = require("./solution");
-const readFile = require('./utils')
+const parseFile = require('./utils')
 
-readFile('input', 'day-1')
+const solution = require("./solution");
+
+parseFile('input', 'day-2')
   .then((lines) => {
     console.log(
 	  	solution.part1(lines),
