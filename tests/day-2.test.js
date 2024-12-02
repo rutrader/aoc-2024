@@ -1,5 +1,5 @@
-const solution = require('./solution');
-const parseFile = require('./utils')
+const solution = require('../src/day-2/js/solution');
+const parseFile = require('../src/day-2/js/utils')
 
 describe('AOC 2024: Day 2', () => {
   let lines = [];

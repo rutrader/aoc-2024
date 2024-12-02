@@ -1,5 +1,5 @@
-const solution = require('./solution');
-const readFile = require('./utils')
+const solution = require('../src/day-1/js/solution');
+const readFile = require('../src/day-1/js/utils')
 
 describe('AOC 2024: Day 1', () => {
   let lines = [];
