@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest",
     "prettier-check": "prettier . --check",
-    "prettify": "prettier . --write"
+    "prettify": "prettier . --write",
+    "qa": "prettier . --write && jest"
   },
   "repository": {
     "type": "git",
